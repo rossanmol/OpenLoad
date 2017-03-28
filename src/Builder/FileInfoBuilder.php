@@ -36,6 +36,7 @@ class FileInfoBuilder extends AbstractBuilder
             ->setName($data['name'])
             ->setSize($data['size'])
             ->setSha1($data['sha1'])
+            ->setCstatus($data['cstatus'])
             ->setContentType($data['content_type']);
 
         return $fileInfo;
